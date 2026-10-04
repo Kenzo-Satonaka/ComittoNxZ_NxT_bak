@@ -30,3 +30,9 @@ jobs:
           unset ANDROID_NDK_ROOT
           unset NDK_HOME
           ./gradlew assembleDebug -q --info
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug
+          path: app/build/outputs/apk/debug/app-debug.apk
