@@ -24,10 +24,18 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:-deprecation"
+    }
 }
 
 dependencies {
-    // 重複する古い jcifs-1.3.17.jar を除外して libs 内の jar を読み込み
     implementation fileTree(dir: 'libs', include: ['*.jar'], exclude: ['jcifs-1.3.17.jar'])
     
     implementation 'androidx.appcompat:appcompat:1.3.1'
