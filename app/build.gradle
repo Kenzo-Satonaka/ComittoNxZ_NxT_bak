@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'jp.dip.muracoro.comittont'
     compileSdkVersion 30
 
     defaultConfig {
