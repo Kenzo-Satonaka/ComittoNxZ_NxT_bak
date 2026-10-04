@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="jp.dip.muracoro.comittont">
 
-    <!-- パーミッション定義（application タグより前に配置） -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
@@ -19,7 +18,7 @@
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
 
         <activity
-            android:name=".fileview.FileSelectActivity"
+            android:name="src.comitton.fileview.FileSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/app_name">
@@ -30,62 +29,62 @@
         </activity>
 
         <activity
-            android:name=".imageview.ImageSelectActivity"
+            android:name="src.comitton.imageview.ImageSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".pdfview.PdfSelectActivity"
+            android:name="src.comitton.pdfview.PdfSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetFileListActivity"
+            android:name="src.comitton.config.SetFileListActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetImageActivity"
+            android:name="src.comitton.config.SetImageActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetImageTextActivity"
+            android:name="src.comitton.config.SetImageTextActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetDetailActivity"
+            android:name="src.comitton.config.SetDetailActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetListColorActivity"
+            android:name="src.comitton.config.SetListColorActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetCoreActivity"
+            android:name="src.comitton.config.SetCoreActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetRecorderActivity"
+            android:name="src.comitton.config.SetRecorderActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetPrePageActivity"
+            android:name="src.comitton.config.SetPrePageActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".config.SetEpubActivity"
+            android:name="src.comitton.config.SetEpubActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name=".activity.CropImageActivity"
+            android:name="src.comitton.activity.CropImageActivity"
             android:label="@string/app_name" />
 
     </application>
