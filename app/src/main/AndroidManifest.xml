@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="jp.dip.muracoro.comittont">
 
-    <!-- パーミッション定義（必ず application タグより前に記述） -->
+    <!-- パーミッション定義 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
@@ -19,7 +19,7 @@
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
 
         <activity
-            android:name="src.comitton.fileview.FileSelectActivity"
+            android:name="jp.dip.muracoro.comittont.fileview.FileSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/app_name">
@@ -30,62 +30,62 @@
         </activity>
 
         <activity
-            android:name="src.comitton.imageview.ImageSelectActivity"
+            android:name="jp.dip.muracoro.comittont.imageview.ImageSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.pdfview.PdfSelectActivity"
+            android:name="jp.dip.muracoro.comittont.pdfview.PdfSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetFileListActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetFileListActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetImageActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetImageActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetImageTextActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetImageTextActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetDetailActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetDetailActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetListColorActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetListColorActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetCoreActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetCoreActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetRecorderActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetRecorderActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetPrePageActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetPrePageActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.config.SetEpubActivity"
+            android:name="jp.dip.muracoro.comittont.config.SetEpubActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="src.comitton.activity.CropImageActivity"
+            android:name="jp.dip.muracoro.comittont.activity.CropImageActivity"
             android:label="@string/app_name" />
 
     </application>
