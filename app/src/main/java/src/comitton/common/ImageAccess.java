@@ -122,7 +122,7 @@ public class ImageAccess {
 		Canvas canvas = new Canvas(bm);
 
 		InputStream is = res.openRawResource(resid);  
-	    Picture picture = Picture.createFromStream(is);
+	    Picture picture = com.larvalabs.svgandroid.SVGParser.getSVGFromInputStream(is).getPicture();
 	    
 	    int w = picture.getWidth();
 	    int h = picture.getHeight();
