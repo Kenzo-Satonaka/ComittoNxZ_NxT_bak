@@ -19,7 +19,7 @@
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
 
         <activity
-            android:name="jp.dip.muracoro.comittont.fileview.FileSelectActivity"
+            android:name=".fileview.FileSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/app_name">
@@ -30,62 +30,62 @@
         </activity>
 
         <activity
-            android:name="jp.dip.muracoro.comittont.imageview.ImageSelectActivity"
+            android:name=".imageview.ImageSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.pdfview.PdfSelectActivity"
+            android:name=".pdfview.PdfSelectActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetFileListActivity"
+            android:name=".config.SetFileListActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetImageActivity"
+            android:name=".config.SetImageActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetImageTextActivity"
+            android:name=".config.SetImageTextActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetDetailActivity"
+            android:name=".config.SetDetailActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetListColorActivity"
+            android:name=".config.SetListColorActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetCoreActivity"
+            android:name=".config.SetCoreActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetRecorderActivity"
+            android:name=".config.SetRecorderActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetPrePageActivity"
+            android:name=".config.SetPrePageActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.config.SetEpubActivity"
+            android:name=".config.SetEpubActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
 
         <activity
-            android:name="jp.dip.muracoro.comittont.activity.CropImageActivity"
+            android:name=".activity.CropImageActivity"
             android:label="@string/app_name" />
 
     </application>
