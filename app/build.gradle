@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'jp.dip.muracoro.comittont'
+    namespace 'src.comitton'
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.github.mikotomaniax.comittonxz"
+       
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
