@@ -12,7 +12,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         
-        versionCode Integer.parseInt(new java.text.SimpleDateFormat("yyMMddHHmm").format(new Date()))
+        versionCode Integer.parseInt(new java.text.SimpleDateFormat("yyMMddHHmm").format(new Date()).substring(1))
         versionName "1.0." + new java.text.SimpleDateFormat("yyMMddHHmm").format(new Date())
     }
 
