@@ -4,7 +4,7 @@ android {
     compileSdk 28
     buildToolsVersion '34.0.0'
     defaultConfig {
-        applicationId "jp.dip.muracoro.comittont"
+        applicationId "com.github.mikotomaniax.comittonxz"
         minSdkVersion 8
         targetSdkVersion 8
         ndk {
