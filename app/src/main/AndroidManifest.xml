@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jp.dip.muracoro.comittont"
+    package="com.github.mikotomaniax.comittonxz"
     android:versionCode="83"
     android:versionName="1.65t6" >
 <!--     android:theme="@android:style/Theme.NoTitleBar.Fullscreen" -->
